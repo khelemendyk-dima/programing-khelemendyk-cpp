@@ -1,0 +1,5 @@
+Bulb 1: no, yes, Romashka, 21, 15, 2400, Triangle, E21.
+Bulb 2: yes, no, TOV Roga and kopyta, 100, 5, 1800, Circle, E40.
+Bulb 3: no, yes, TOV Rubin, 200, 3, 4020, Quad, E12.
+Bulb 4: yes, no, Kapusta, 354, 20, 1800, Square, E63.
+Bulb 5: yes, no, TOV Roga and kopyta, 100, 5, 1800, Circle, E40.
