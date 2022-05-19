@@ -60,7 +60,7 @@ template <class ComparisonFunctor> void sortBulbs(vector<Bulb> &vector, Comparis
 		}
 	}
 }
-void print(const vector<Bulb> &vector)
+void printVector(const vector<Bulb> &vector)
 {
 	for (size_t i = 0; i < vector.size(); i++) {
 		cout << "Bulb " << i + 1 << ": ";

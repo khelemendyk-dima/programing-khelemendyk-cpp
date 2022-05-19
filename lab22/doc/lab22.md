@@ -37,7 +37,7 @@
 #### Функція виводу списку
 
 ```
-	void print(const vector<Bulb> &vector);
+	void printVector(const vector<Bulb> &vector);
 ```
 
 *Призначення*: друк списку на екран.

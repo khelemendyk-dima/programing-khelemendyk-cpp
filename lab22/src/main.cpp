@@ -31,12 +31,12 @@
  * - створюю 4 лампочки, використовуючи 3 реалізованних конструкторів, 
  * та створюю вектор;
  * - далі додаю лампочки в вектор 4 рази у кінець функцією push_back та 
- * друкую їх за допомогою функції {@link print};
+ * друкую їх за допомогою функції {@link printVector};
  * - потім видаляю першу лампочку шляхом виклику функції erase;
  * - також знаходю згорівші лампочки за допомогою функції 
  * {@link findBurnedBulbs};
  * - нарешті, сортую лампочки за зворотнім лічильником функцією 
- * {@link sortBulbs} та друкую результат функцією {@link print};
+ * {@link sortBulbs} та друкую результат функцією {@link printVector};
  * - @return успішний код повернення з програми (0).
  */
 
@@ -53,15 +53,15 @@ int main()
 	vector.push_back(bulb3);
 	vector.push_back(bulb4);
 	vector.push_back(bulb1);
-	print(vector);
+	printVector(vector);
 	cout << "Removing bulb" << endl;
 	vector.erase(vector.begin() + 0);
-	print(vector);
+	printVector(vector);
 	cout << "Finding burnt out bulbs" << endl;
 	findBurnedBulbs(vector);
 	cout << "Sorting bulbs by reverse counter" << endl;
 	compare_class functor;
 	sortBulbs(vector, functor);
-	print(vector);
+	printVector(vector);
 	return 0;
 }
