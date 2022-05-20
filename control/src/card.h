@@ -10,7 +10,6 @@ using std::endl;
 using std::string;
 using std::vector;
 
-enum Suite { H, D, S, C };
 /**
  * Клас "карта"
  */
